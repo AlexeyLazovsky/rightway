@@ -6,7 +6,9 @@ import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
 @CucumberOptions(
-        features = {"src/test/resources/LegionSignInPageTest.feature"},
+       // features = {"src/test/resources/LegionSignInPageTest.feature"},
+        features = {"src/test/resources/RightWayHomePageTest.feature"},
+
         plugin = { "pretty", "html:target/cucumber-reports/" },
         glue = {"steps"}
 )

@@ -11,3 +11,4 @@ Feature: Legion QA main page tests
     When User clicks Sign In
     Then Verify that email box is displayed
     And Verify that password box is displayed
+
